@@ -28,7 +28,7 @@ class TestBasicSyntax(unittest.TestCase):
         self.assertEqual(modulus_result, 10 % 20.5)
 
     def test_get_numbers(self):
-        numbers = basic_syntax.get_numbers()
+        numbers = basic_syntax.get_numbers() 
         self.assertEqual(numbers, [0, 1, 2, 3, 4, 5])
 
 if __name__ == '__main__':
